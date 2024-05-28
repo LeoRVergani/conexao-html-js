@@ -27,7 +27,7 @@ const secondPostText = document.querySelector('#post02 .post-texto');
 console.log(secondPostText);
 
 const footerSocial = document.querySelectorAll('footer .lista_redes li');
-    footerSocial.forEach((rede, index)) => {
-        console.log(rede);
-    }
+    footerSocial.forEach((rede, index) => {
+        console.log(`Rede social ${index + 1}:`, rede.innerText);
+    })
 
